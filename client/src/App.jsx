@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import SignIn from './pages/Signin'
 import SignUp from './pages/SignUp'
 import About from './pages/About'
 import Profile from './pages/Profile'
@@ -12,6 +11,7 @@ import Listing from './pages/Listing'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Search from './pages/Search'
+import SignIn from './pages/Signin'
 
 const App = () => {
   return (
